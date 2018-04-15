@@ -185,7 +185,7 @@
             this.groupBox2.Controls.Add(this.statBtn);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Location = new System.Drawing.Point(2, 5);
+            this.groupBox2.Location = new System.Drawing.Point(710, 12);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -272,7 +272,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(934, 435);
+            this.ClientSize = new System.Drawing.Size(920, 435);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.profileBtn);
             this.Controls.Add(this.listBoxResult);
@@ -285,6 +285,7 @@
             this.Controls.Add(this.textBoxInput);
             this.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

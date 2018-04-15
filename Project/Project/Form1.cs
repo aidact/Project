@@ -95,11 +95,12 @@ namespace Project
             if (groupBox2.Visible)
             {
                 groupBox2.Hide();
+                Width = 716;
             }
             else
             {
                 groupBox2.Show();
-
+                Width = 936;
                // pictureBox1.BackgroundImage = store.GetUser().bmp;
                 label2.Text = "Name Surname";
                 label3.Text += "100";
@@ -144,6 +145,11 @@ namespace Project
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Width = 716;
         }
     }
 }
